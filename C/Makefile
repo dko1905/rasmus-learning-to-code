@@ -1,6 +1,7 @@
 .POSIX:
 
-FILES = 01-hello.out 02-io-fread-cars.out 03-io-argv.out
+FILES = 01-hello.out 02-io-fread-cars.out 02b-io-getch.out \
+	03-io-argv.out 04-arrays.out 05-io-readline.out
 JFILES = $(FILES:.out=.c.json)
 
 include config.mk
