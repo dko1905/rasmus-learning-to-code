@@ -1,0 +1,4 @@
+*.out
+*.c.json
+compile_commands.json
+
